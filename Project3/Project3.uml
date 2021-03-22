@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="1875.0" y="2582.0">com</node>
+    <node x="1257.5" y="1004.0">Entity</node>
+    <node x="218.0" y="2582.0">netscape</node>
+    <node x="676.0" y="1693.0">FindPath</node>
+    <node x="1235.9999999999998" y="1274.0">AlienOne</node>
+    <node x="0.0" y="2371.0">DNode</node>
+    <node x="1707.0" y="1693.0">Node</node>
+    <node x="1533.0" y="2582.0">icon</node>
+    <node x="292.9999999999998" y="1319.5">DontBreak</node>
+    <node x="0.0" y="0.0">WorldModel</node>
+    <node x="1975.0" y="1693.0">APoint</node>
+    <node x="1219.0" y="1693.0">Factory</node>
+    <node x="866.0" y="2272.0">AStarPathingStrategy</node>
+    <node x="278.0" y="1594.0">A_Spawn</node>
+    <node x="1091.0" y="2371.0">toolbarButtonGraphics</node>
+    <node x="1872.9999999999998" y="1296.5">Rocket</node>
+    <node x="2038.0" y="2582.0">sun</node>
+    <node x="264.0" y="2371.0">ImageStore</node>
+    <node x="1732.0" y="2272.0">SingleStepPathingStrategy</node>
+    <node x="996.0" y="2582.0">apple</node>
+    <node x="1956.0" y="2371.0">groovyjarjarasm</node>
+    <node x="2204.0" y="1296.5">Yaeger</node>
+    <node x="1704.0" y="2582.0">java</node>
+    <node x="464.25" y="1490.0">Asteroid</node>
+    <node x="920.9999999999998" y="1253.0">SpaceShip</node>
+    <node x="1175.0" y="2582.0">javax</node>
+    <node x="0.0" y="2272.0">DijkstraPathingStrategy</node>
+    <node x="1395.0" y="2371.0">groovyjarjarpicocli</node>
+    <node x="0.0" y="1594.0">Gold</node>
+    <node x="622.0" y="2582.0">images</node>
+    <node x="1354.0" y="2582.0">junit</node>
+    <node x="866.0" y="2145.0">PathingStrategy</node>
+    <node x="1563.9999999999998" y="1319.5">Explosion</node>
+    <node x="551.0" y="2371.0">Background</node>
+    <node x="2201.0" y="2582.0">org</node>
+    <node x="245.0" y="1693.0">WorldView</node>
+    <node x="106.25" y="1490.0">DontBreakRocket</node>
+    <node x="2364.0" y="2582.0">jdk</node>
+    <node x="420.0" y="2582.0">META-INF</node>
+    <node x="0.0" y="1693.0">MainWorld</node>
+    <node x="809.0" y="2582.0">groovy</node>
+    <node x="606.9999999999998" y="1285.0">Laser</node>
+    <node x="0.0" y="2582.0">processing</node>
+    <node x="779.0" y="2371.0">groovyjarjarcommonscli</node>
+    <node x="1683.0" y="2371.0">groovyjarjarantlr</node>
+    <node x="2213.0" y="2371.0">japplemenubar</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="DontBreakRocket" target="DontBreak">
+      <point x="0.0" y="-27.0" />
+      <point x="275.25" y="1465.0" />
+      <point x="366.4999999999998" y="1465.0" />
+      <point x="-73.5" y="27.0" />
+    </edge>
+    <edge source="DijkstraPathingStrategy" target="PathingStrategy">
+      <point x="0.0" y="-27.0" />
+      <point x="423.0" y="2247.0" />
+      <point x="1007.0" y="2247.0" />
+      <point x="-282.0" y="38.5" />
+    </edge>
+    <edge source="A_Spawn" target="DontBreakRocket">
+      <point x="0.0" y="-27.0" />
+      <point x="421.5" y="1569.0" />
+      <point x="359.75" y="1569.0" />
+      <point x="84.5" y="27.0" />
+    </edge>
+    <edge source="Asteroid" target="DontBreak">
+      <point x="0.0" y="-27.0" />
+      <point x="604.75" y="1465.0" />
+      <point x="513.4999999999998" y="1465.0" />
+      <point x="73.5" y="27.0" />
+    </edge>
+    <edge source="Laser" target="Entity">
+      <point x="0.0" y="-61.5" />
+      <point x="753.9999999999998" y="1223.0" />
+      <point x="1314.2857142857142" y="1223.0" />
+      <point x="-75.71428571428578" y="94.5" />
+    </edge>
+    <edge source="Gold" target="DontBreakRocket">
+      <point x="0.0" y="-27.0" />
+      <point x="129.0" y="1569.0" />
+      <point x="190.75" y="1569.0" />
+      <point x="-84.5" y="27.0" />
+    </edge>
+    <edge source="AStarPathingStrategy" target="PathingStrategy">
+      <point x="0.0" y="-27.0" />
+      <point x="0.0" y="38.5" />
+    </edge>
+    <edge source="DontBreak" target="Entity">
+      <point x="0.0" y="-27.0" />
+      <point x="439.9999999999998" y="1213.0" />
+      <point x="1276.4285714285716" y="1213.0" />
+      <point x="-113.57142857142844" y="94.5" />
+    </edge>
+    <edge source="SingleStepPathingStrategy" target="PathingStrategy">
+      <point x="0.0" y="-27.0" />
+      <point x="2155.0" y="2247.0" />
+      <point x="1571.0" y="2247.0" />
+      <point x="282.0" y="38.5" />
+    </edge>
+    <edge source="Explosion" target="Entity">
+      <point x="0.0" y="-27.0" />
+      <point x="1708.4999999999998" y="1233.0" />
+      <point x="1427.857142857143" y="1233.0" />
+      <point x="37.85714285714289" y="94.5" />
+    </edge>
+    <edge source="SpaceShip" target="Entity">
+      <point x="-2.2737367544323206E-13" y="-93.5" />
+      <point x="1068.4999999999995" y="1233.0" />
+      <point x="1352.142857142857" y="1233.0" />
+      <point x="-37.85714285714289" y="94.5" />
+    </edge>
+    <edge source="AlienOne" target="Entity">
+      <point x="0.0" y="-72.5" />
+      <point x="0.0" y="94.5" />
+    </edge>
+    <edge source="Yaeger" target="Entity">
+      <point x="0.0" y="-50.0" />
+      <point x="2340.0" y="1213.0" />
+      <point x="1503.5714285714287" y="1213.0" />
+      <point x="113.57142857142867" y="94.5" />
+    </edge>
+    <edge source="Rocket" target="Entity">
+      <point x="0.0" y="-50.0" />
+      <point x="2028.4999999999998" y="1223.0" />
+      <point x="1465.7142857142858" y="1223.0" />
+      <point x="75.71428571428578" y="94.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.3870182826487603" x="851.7248532263607" y="1729.7949036907871" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

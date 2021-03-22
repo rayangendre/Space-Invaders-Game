@@ -1,0 +1,13 @@
+spaceship,images/spaceship.bmp
+background,images/background.bmp
+laser,images/Laser.bmp
+asteroid,images/asteroid.bmp
+alienOne,images/flyingSaucer.bmp
+explosion,images/explosion.bmp
+ASpawnLeft,images/ASpawnLeft.bmp
+ASpawnRight,images/ASpawnRight.bmp
+goal,images/goal.bmp
+yaeger,images/yaeger.bmp
+yaegerSpawn,images/yaegerSpawn.bmp
+rocket,images/rocket.bmp
+fragments,images/fragments.bmp

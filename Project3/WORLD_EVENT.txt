@@ -1,0 +1,8 @@
+World Event
+- when the mouse is clicked there is a rocket that is created and sent across the screen to that point
+- the rocket leaves from the left side of the screen and goes straight, obstacle ignoring
+-if the point has a asteroid, the asteroid will be removed and an explosion will happen
+-if the point is empty space, an explosion will only happen there
+-if an alien is at that point, the alien will be killed and explosion happens
+-if the point is either a gold goal or a mothership, the rocket will disappear and not explode
+-a rocket cannot be spawned where the player ship is, doesnt make sense to call a strike on your own ship
